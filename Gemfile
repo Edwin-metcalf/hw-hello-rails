@@ -44,8 +44,8 @@ gem "bootsnap", require: false
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"
 group :production do
-  gem 'pg', '~> 1.5.0' #for heroku deployment
-  #gem 'pg', '1.6.0.rc1' #for heroku deployment
+  #gem 'pg', '~> 1.5.0' #for heroku deployment
+  gem 'pg', '1.6.0.rc1' #for heroku deployment
 end
 
 
